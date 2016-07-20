@@ -20,11 +20,7 @@ def random_col(board):
 
 ship_row = random_row(board)
 ship_col = random_col(board)
-#print ship_row
-#print ship_col
 
-# Everything from here on should go in your for loop!
-# Be sure to indent four spaces!
 for turn in range(4):
     print "turn is " 
     print turn
@@ -46,5 +42,4 @@ for turn in range(4):
         if turn == 3:
             print "Game Over"
     turn += 1
-    # Print (turn + 1) here!
     print_board(board)
