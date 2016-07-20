@@ -12,5 +12,3 @@ else:
     print 'empty'
 
 print new_word[1:len(new_word)]
-
-#line 12 or line 16 both works
